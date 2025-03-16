@@ -1,0 +1,29 @@
+body{
+    background-color: #FFA07A;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+#guessButton {
+    background-color: #aaf0d1;
+    border: 2px solid blue;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    color: blue;
+}
+.correct {
+    background-color: #a4f79f !important;
+    border: 2px solid #4c8a3f !important;
+    color: green !important;
+}
+.too-low, .too-high {
+    background-color: #f5a388 !important;
+    border: 2px solid #c75b39 !important;
+    color: red !important;
+}
+
+
