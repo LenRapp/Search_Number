@@ -12,24 +12,13 @@ function guessNumber() {
         guessButton.textContent = "Veuillez entrer un nombre valide entre 1 et 10.";
         guessButton.classList.add("too-low");
     } else if (userGuess < randomNumber) {
-        guessButton.textContent = "Dommage !!! Le numéro est trop petit";
+        guessButton.textContent = "Dommage !!! " + userGuess + " est trop petit";
         guessButton.classList.add("too-low");
     } else if (userGuess > randomNumber) {
-        guessButton.textContent = "Dommage !!! Le numéro est trop grand";
+        guessButton.textContent = "Dommage !!! " + userGuess +" est trop grand";
         guessButton.classList.add("too-high");
     } else {
         guessButton.textContent = "Bravo !!! Le nombre était " + randomNumber;
         guessButton.classList.add("correct");
     }
-
 }
-
-
-
-
-
-
-
-
-
-
