@@ -51,8 +51,8 @@ Ce projet est sous licence MIT.
 ![Exemple de partie](screenshots/jeu.png)
 
 ### Message de mauvaise reponse
-![Message de mauvaise reponse](screenshots/victoire.png)
+![Message de mauvaise reponse](screenshots/mauvaiseReponse.png)
 
 ### Message de victoire
-![Message de victoire](screenshots/mauvaiseReponse.png)
+![Message de victoire](screenshots/victoire.png)
 
